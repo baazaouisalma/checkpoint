@@ -14,6 +14,10 @@
                  <a href="/contact/"> contact </a>
             </nav> 
             
+            <form>
+                Search <input type = "text" name = "search" />
+            </form>
+
         </head>
          <body>
             <section>
@@ -29,12 +33,71 @@
             <section>
                  <h1> Resume information : <h1>
                  <p><h4>My name is salma baazaoui ,I am 25 years old .<br/> I obtained a diploma in media engineering in Tunisia in 2021, with an excellent average of 16:71 </h4></p> 
-            </section>
+                 
+                 <select>
+                    <option value="WebTrack">Web Track</option>
+                    <option value="AITrack">AI Track</option>
+                    <option value="GameTrack">Game Track</option>
+                    <option value="DataScienceTrack">Data Science Track</option>
+                  </select>
+                  <textarea name="message" cols="30" rows="5">
+                    Welcome to GoMyCode
+                  </textarea>
+                </section>
 
             <section>
                  <h1> Contact information : <h1>
                  <p><h4> Go my code is an EdTech Startup..</h4></p> 
             </section>
+
+
+
+                  <!-- Correct img declaration  -->
+                 <img src="https://scontent.ftun1-2.fna.fbcdn.net/v/t39.30808-6/240651298_956518575080268_8028683213691141537_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_ohc=kz0sn3NL_bkAX9hyrEc&_nc_ht=scontent.ftun1-2.fna&oh=00_AT-ayKHduBGlJBCEEyTL1NsG4UrcrrjB_Yiwvt84LLGvaQ&oe=62F64F8D" alt="salma" > 
+
+                 <audio controls>
+                      <source src="https://youtu.be/tjA7nAHOAww" type="audio">
+                      Please Check the audio Extension
+                  </audio>
+
+                    <iframe width="500" height="315"
+                         src="https://www.youtube.com/embed/2vMH8lITTCE" title="Marshmello - Summer (Clip Officiel) avec Lele Pons" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                    </iframe>
+
+                    <a href="https://gomycode.tn/">Take me to GoMyCode's Website</a>
+                    <table border="1">
+                        <tr>
+                          <th>HTML</th>
+                          <th>CSS</th>
+                          <th>JS</th>
+                        </tr>
+                        <tr>
+                          <td>Paragraphs</td>
+                          <td>Selectors</td>
+                          <td>DOM</td>
+                        </tr>
+                        <tr>
+                          <td>Tables</td>
+                          <td>Styles</td>
+                          <td>Elements</td>
+                        </tr>
+                      </table>
+
+
+                        <ol type="I">
+                             <li>Create a folder named "GoMyCode" on your Desktop</li>
+                             <li>Create a new folder in GoMyCode folder name it whatever you want.</li>
+                        </ol>
+                        <form>
+                            <label>First Name:</label>
+                            <input type="text" name="firstName" />
+                            <br />
+                            <label>Last Name:</label>
+                            <input type="text" name="lastName" id="lastName" />
+                            <br />
+                            <!-- This button will submit the form, causing the page to redirect -->
+                            <button type="submit">Submit Name</button>
+                          </form>
         </body>
 
           <footer>
@@ -45,7 +108,7 @@
                      <li>learn platform </li>
                  </ul>
             <h2> Formations </h2>
-                <ul> 
+                <ul type="disc"> 
                      <li>Choose your hours    </li>
                      <li>  Night classes  </li>
                      <li> summer academy</li>
@@ -60,7 +123,7 @@
                      <li> Recruit our Alumni </li>
                 </ul>
             <h2> Hackerspaces</h2>
-                <ul>
+                <ul type="square">
                      <li>   Instructors </li>
                      <li>   Join us</li>
                 </ul>
