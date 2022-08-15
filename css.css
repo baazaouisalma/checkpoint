@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+    font-style:italic;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    display: inline;
+    color:blueviolet;
+  }
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h1 {
+	color: red;
+	font-family: roboto;
+	text-align: center;
+}
+.title{
+    color:blue
+  }
+  #blue-bordered {
+    border: 5px dashed blue;
+}
+.box p {
+    color: red;
+}  
+h1 ~ p {
+    font-weight: bold;
+    background-color:red;
+    color: #fff;
+    padding: .5em;
+}
+h2{
+    color: purple;
+	font-family: roboto;
+	text-align: left;
+}
+
+h2+ul {
+    font-weight: bold;
+    background-color: #333;
+    color: rgb(8, 7, 7);
+    padding: .5em;
+}   
+p {
+    border: 10px solid black;
+    margin: 20px;
+  }
+
+  .rounded {
+    border-radius: 15px;
+  }
+
+  .elliptical {
+    border-radius: 50px / 25px;
+  }
+  
+
