@@ -58,4 +58,10 @@ p {
     border-radius: 50px / 25px;
   }
   
+  @font-face {
+    font-family: "chathurabold";
+    src: url("../go\ my\ code\ .html/chathurabold");
+    font-weight: normal;
+    font-style: normal;
+}
 
